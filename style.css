@@ -11,20 +11,25 @@ body{
 h1{
     font: size 2.5em;
     margin-bottom: 30px;
+    font-size: 3rem;
 }
 
 p{
-    font-size: large;
+    font-size: 1.5rem;
     line-height: 0chs;
 }
 
 .container{
     text-align: center;
+    margin-top: 5rem;
+    padding: 1px;
 }
 
 .trait{
     display: flex;
     justify-content: center;
+    padding: 3px;
+    
 }
 
 .style{
@@ -34,18 +39,35 @@ p{
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     padding-top: 20px;
+    border-radius: 5px;
 }
 
 .box{
     border: 1px solid white;
-    padding: 10px;
+    padding: 5px;
     color: white;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-block: 1px;
+}
+
+.box:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .boring {
     color: red;
+}
+
+.small-text {
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
