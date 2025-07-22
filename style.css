@@ -71,3 +71,16 @@ p{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.Truly {
+    font-size: 40px;
+}
+
+.value {
+    border: 1px solid white;
+    padding: 30px;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 2px;
+    padding-block: 10px;
+}
